@@ -27,16 +27,34 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Google fonts Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
+      <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+          <a class="navbar-brand home-icon-wrapper" href="index.html">
+            <img src="images/logo-icon.png" alt="" class="home-icon" />
+            <!-- height="50" width="114 -->
+          </a>
           <button
             type="button"
-            class="navbar-toggle"
+            class="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
@@ -49,17 +67,32 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active">
+            <!-- <li class="active">
               <a href="index.html">Home </a>
+            </li> -->
+            <li>
+              <a href="about.html">
+                <div class="nav-bar-icon-flex">
+                  <span class="material-icons"> info </span>
+                  <span class="nav-bar-links"> About Us </span>
+                </div>
+              </a>
             </li>
             <li>
-              <a href="about.html">About us</a>
+              <a href="portfolio.html">
+                <div class="nav-bar-icon-flex">
+                  <span class="material-icons"> maps_home_work </span>
+                  <span class="nav-bar-links">Portfolio</span>
+                </div>
+              </a>
             </li>
             <li>
-              <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
+              <a href="contact.html">
+                <div class="nav-bar-icon-flex">
+                  <span class="material-icons"> perm_phone_msg </span>
+                  <span class="nav-bar-links">Contact</span>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
