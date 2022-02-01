@@ -184,6 +184,17 @@ img.zoom1-img:hover {
   background-color: #e0370c;
 }
 
+.pill-btn {
+  color: #fff;
+  background-color: #e0370c;
+}
+
+a.pill-btn.btn {
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /*
 .latest {
 	max-height: 600px;
@@ -667,6 +678,11 @@ img.zoom1-img:hover {
 
 .img-gallery {
   margin-bottom: 32px;
+}
+
+.bg-services-offered {
+  background-color: #19bbcd;
+  padding: 25px 0px 10px 0px;
 }
 
 /* ----------------------------------------------------
