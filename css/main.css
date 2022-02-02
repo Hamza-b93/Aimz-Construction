@@ -390,6 +390,13 @@ a.pill-btn.btn {
   }
 }
 
+@media screen and (min-width: 1279px) {
+  div.row.padding-top {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 @media screen and (min-width: 1439px) {
   .home-icon {
     width: 120px;
@@ -428,6 +435,11 @@ a.pill-btn.btn {
     height: 32px;
     width: 32px;
     border-radius: 50%;
+  }
+
+  div.row.padding-top {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
