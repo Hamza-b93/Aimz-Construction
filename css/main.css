@@ -177,11 +177,21 @@ img.zoom1-img:hover {
 .carousel-btns {
   position: relative;
   top: 44%;
-  color: #e0370c;
+  /* color: #e0370c; */
+  color: #0e4c75;
 }
 
-.carousel-indicators .active {
+/*These have been commented out, look at the HTML*/
+/* .carousel-indicators .active {
   background-color: #e0370c;
+} */
+
+a.left.carousel-control {
+  text-align: start;
+}
+
+a.right.carousel-control {
+  text-align: end;
 }
 
 .pill-btn {
@@ -365,6 +375,14 @@ a.pill-btn.btn {
   .carousel-btns {
     font-size: 50px;
   }
+
+  a.left.carousel-control span {
+    margin-left: 10px;
+  }
+
+  a.right.carousel-control span {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (min-width: 1023px) {
@@ -441,6 +459,18 @@ a.pill-btn.btn {
     margin-left: 50px;
     margin-right: 50px;
   }
+
+  a.left.carousel-control span {
+    margin-left: 20px;
+  }
+
+  a.right.carousel-control span {
+    margin-right: 20px;
+  }
+
+  .carousel-inner .item img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -491,8 +521,33 @@ a.pill-btn.btn {
   .carousel-btns {
     font-size: 40px;
   }
+
+  a.left.carousel-control span {
+    margin-left: 10px;
+  }
+
+  a.right.carousel-control span {
+    margin-right: 10px;
+  }
 }
 
+@media (max-width: 425px) {
+  .carousel-btns {
+    font-size: 30px;
+  }
+
+  a.left.carousel-control span {
+    margin-left: 5px;
+  }
+
+  a.right.carousel-control span {
+    margin-right: 5px;
+  }
+
+  div.carousel-inner div.item img {
+    height: 240px;
+  }
+}
 /* ----------------------------------------------------
 	 HOME PAGE BANNER
 ------------------------------------------------------- */
