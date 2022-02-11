@@ -237,8 +237,11 @@ a.tile-pill-btn.btn {
 .navbar-default .navbar-toggle {
   border-color: #dddddd;
   color: white;
-  margin-top: 14px;
-  margin-bottom: 13px;
+  /* margin-top: 14px;
+  margin-bottom: 13px; */
+  margin-top: 27px;
+  margin-bottom: 27px;
+  margin-right: 22px;
   background-color: #dddddd;
 }
 
@@ -266,6 +269,26 @@ a.tile-pill-btn.btn {
 
 .navbar-default .navbar-nav > li > a {
   color: #0e4c75;
+}
+
+.nav-link-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+a.navbar-brand.home-icon-wrapper.nav-link-flex > p {
+  font-size: 14px;
+  font-family: "Josefin Sans";
+  color: #0e4c75;
+  background-color: transparent;
+  line-height: 16px;
+  text-shadow: 0 0 3px #0e4c75;
+  font-weight: 600;
+  margin: 0px;
+}
+
+nav.nav-bar {
+  min-height: 88px;
 }
 
 @media screen and (min-width: 768px) {
@@ -394,6 +417,15 @@ a.tile-pill-btn.btn {
   .tile-img-wrapper {
     /* width: 294px; */
     height: 165px;
+  }
+
+  nav.navbar-default {
+    min-height: 96px;
+  }
+
+  ul.nav.navbar-nav {
+    position: relative;
+    top: 15px;
   }
 }
 
