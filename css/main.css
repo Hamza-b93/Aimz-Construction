@@ -42,7 +42,7 @@ h3 {
 }
 
 .hr {
-  border-bottom: 3px solid #e0370c;
+  border-bottom: 3px solid #f7941e;
   display: block;
   width: 30px;
   margin: auto;
@@ -153,7 +153,7 @@ img {
   line-height: normal;
   color: white;
   text-transform: capitalize;
-  background-color: #16a6b6;
+  background-color: #c90023;
 }
 
 img.zoom1-img {
@@ -233,7 +233,7 @@ div > figure {
 }
 
 .navbar-default {
-  background-color: #16a6b6;
+  background-color: #c90023;
   border-color: transparent;
 }
 
@@ -271,7 +271,7 @@ div > figure {
 } */
 
 .navbar-default .navbar-nav > li > a {
-  color: #0e4c75;
+  color: #3d0000;
 }
 
 .nav-link-flex {
@@ -282,10 +282,10 @@ div > figure {
 a.navbar-brand.home-icon-wrapper.nav-link-flex > p {
   font-size: 14px;
   font-family: "Josefin Sans";
-  color: #0e4c75;
+  color: #3d0000;
   background-color: transparent;
   line-height: 16px;
-  text-shadow: 0 0 3px #0e4c75;
+  text-shadow: 0 0 3px #3d0000;
   font-weight: 600;
   margin: 0px;
 }
@@ -306,7 +306,7 @@ nav.nav-bar {
 
   nav.navbar-default {
     border: none;
-    background: #16a6b6;
+    background: #c90023;
     /* padding-top: 12px; */
     padding-bottom: 8px;
     padding-top: 8px;
@@ -330,7 +330,7 @@ nav.nav-bar {
   }
 
   .navbar-default .navbar-nav > li > a:hover {
-    color: white;
+    color: #fff;
   }
 
   span.nav-bar-links {
@@ -732,7 +732,7 @@ nav.nav-bar {
 
 .services1 {
   margin-bottom: 32px;
-  background-color: white;
+  background-color: #c90023;
 }
 
 .services1-default {
@@ -751,7 +751,7 @@ nav.nav-bar {
   /* letter-spacing: 0.2em; */
   letter-spacing: 0.1em;
   /* color: #2a2a2a; */
-  color: #0e4c75;
+  color: #fff;
   line-height: 1.6em;
   /* margin-top: 8px; */
   margin-top: 0px;
@@ -763,7 +763,7 @@ nav.nav-bar {
 .services1-body p {
   font-size: 15px;
   font-weight: 400;
-  color: #333;
+  color: #fff;
   margin-top: 3px;
   margin-bottom: 23px;
   text-align: left;
@@ -909,7 +909,7 @@ div.tile-img-back div.tile-img-back-flex p.tile-back-side-text {
 }
 
 .bg-color-gallery {
-  background-color: #19bbcd;
+  background-color: #c90023;
   padding: 25px 0px 10px 0px;
   margin-top: 94px;
 }
@@ -919,7 +919,7 @@ div.tile-img-back div.tile-img-back-flex p.tile-back-side-text {
 }
 
 .bg-services-offered {
-  background-color: #19bbcd;
+  background-color: #c90023;
   padding: 25px 0px 10px 0px;
 }
 
@@ -1019,7 +1019,7 @@ div.tile-img-back div.tile-img-back-flex p.tile-back-side-text {
 .block-serv2 {
   margin-bottom: -99999px;
   padding-bottom: 99999px;
-  background-color: #19bbcd;
+  background-color: #c90023;
 }
 
 .block-serv3 {
