@@ -212,9 +212,6 @@ a.tile-pill-btn.btn {
   margin-bottom: 0px;
 }
 
-div > figure {
-  text-align: center;
-}
 /*
 .latest {
 	max-height: 600px;
@@ -680,15 +677,6 @@ nav.nav-bar {
   padding: 10px 0 0 0;
 }
 
-.bg-color-intro-portfolio {
-  background-color: #bdc3c7;
-  padding: 20px 0px 0px 0px;
-  margin-top: -22px;
-  margin-bottom: 20px;
-  background-image: url(../images/pattern.jpg);
-  background-position: left top;
-  background-repeat: repeat;
-}
 .space {
   margin-top: 25px;
   margin-bottom: 25px;
