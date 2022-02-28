@@ -291,6 +291,43 @@ nav.nav-bar {
   min-height: 88px;
 }
 
+/* ----------------------------------------------------
+	Footer Container
+------------------------------------------------------- */
+
+.footer-container {
+  background-color: #114477;
+  width: 100%;
+  height: 160px;
+  background-image: url(../images/aimz-faded-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto 120px;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.footer-container > div > p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.social-icons-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-container > div > div.social-icons-flex > a {
+  font-size: 28px;
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .brand {
     margin: 0;
@@ -426,6 +463,10 @@ nav.nav-bar {
   ul.nav.navbar-nav {
     position: relative;
     top: 15px;
+  }
+
+  .footer-container > div > p {
+    font-size: 16px;
   }
 }
 
@@ -616,6 +657,15 @@ nav.nav-bar {
   .tile-img-wrapper {
     /* width: 335px; */
     height: 188px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+  }
+  .footer-container > div > p {
+    font-size: 14px;
   }
 }
 
