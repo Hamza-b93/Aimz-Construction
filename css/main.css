@@ -202,8 +202,8 @@ a.right.carousel-control {
 
 a.pill-btn.btn {
   border-radius: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 a.tile-pill-btn.btn {
@@ -285,7 +285,7 @@ a.navbar-brand.home-icon-wrapper.nav-link-flex > p {
   color: #4080b8;
   background-color: transparent;
   line-height: 16px;
-  text-shadow: 0 0 3px #4080b8;
+  text-shadow: 0 0 2px #4080b8;
   font-weight: 600;
   margin: 0px;
 }
@@ -576,6 +576,10 @@ nav.nav-bar {
   .tile-img-wrapper {
     /* width: 720px; */
     height: 405px;
+  }
+
+  .container {
+    width: 2100px;
   }
 }
 
