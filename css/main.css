@@ -285,7 +285,7 @@ a.navbar-brand.home-icon-wrapper.nav-link-flex > p {
   color: #4080b8;
   background-color: transparent;
   line-height: 16px;
-  text-shadow: 0 0 2px #4080b8;
+  text-shadow: 0 0 3px #4080b8;
   font-weight: 600;
   margin: 0px;
 }
@@ -677,6 +677,11 @@ nav.nav-bar {
   }
   .footer-container > div > p {
     font-size: 14px;
+  }
+
+  a.navbar-brand.home-icon-wrapper.nav-link-flex > p {
+    color: #4080b8;
+    text-shadow: 0 0 0 #4080b8;
   }
 }
 
