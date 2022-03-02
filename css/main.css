@@ -215,6 +215,10 @@ a.tile-pill-btn.btn {
 div > figure {
   text-align: center;
 }
+
+.footer-margin-top {
+  margin-top: 50px;
+}
 /*
 .latest {
 	max-height: 600px;
