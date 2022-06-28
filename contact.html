@@ -85,7 +85,7 @@
             <a href="contact.html">
               <div class="nav-bar-icon-flex">
                 <span class="material-icons"> perm_phone_msg </span>
-                <span class="nav-bar-links">Contact</span>
+                <span class="nav-bar-links">Contact Us</span>
               </div>
             </a>
           </li>
@@ -98,7 +98,7 @@
 
   <!-- Intro text -->
   <div class="title bg-color-intro intro-text">
-    <h1>Contact</h1>
+    <h1>Contact Us</h1>
 
     <div class="hr"></div>
   </div>
@@ -110,12 +110,12 @@
     <div class="row col-xs-offset-1">
       <!-- Column1 -->
       <div class="col-md-6 col-sm-12">
-        <h3 class="contact-headings">Contact us</h3>
+        <h3 class="contact-headings">Drop us a line</h3>
 
         <form method="post" action="contact/contactengine.php">
           <div class="control-group form-group">
             <div class="controls">
-              <label>Name:</label>
+              <label>First Name<span class="red-astrisk">*</span> :</label>
               <input type="text" class="form-control" id="name" required
                 data-validation-required-message="Please enter your name." />
             </div>
@@ -123,33 +123,61 @@
 
           <div class="control-group form-group">
             <div class="controls">
-              <label>Email:</label>
+              <label>Last Name<span class="red-astrisk">*</span> :</label>
+              <input type="text" class="form-control" id="name" required
+                data-validation-required-message="Please enter your name." />
+            </div>
+          </div>
+
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Email<span class="red-astrisk">*</span> :</label>
               <input type="email" class="form-control" id="email" required
                 data-validation-required-message="Please enter your email address." />
             </div>
           </div>
+
           <div class="control-group form-group">
             <div class="controls">
-              <label>Address:</label>
+              <label>Phone Number<span class="red-astrisk">*</span> :</label>
+              <input type="email" class="form-control" id="email" required
+                data-validation-required-message="Please enter your email address." />
+            </div>
+          </div>
+
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Street Address<span class="red-astrisk">*</span> :</label>
               <input type="text" class="form-control" id="name" required
                 data-validation-required-message="Please enter your address." />
             </div>
           </div>
+
           <div class="control-group form-group">
             <div class="controls">
-              <label>Phone:</label>
+              <label>City<span class="red-astrisk">*</span> :</label>
               <input type="text" class="form-control" id="name" required
                 data-validation-required-message="Please enter your phone number." />
             </div>
           </div>
+
           <div class="control-group form-group">
             <div class="controls">
-              <label>Comments:</label>
+              <label>Postal Code<span class="red-astrisk">*</span> :</label>
+              <input type="text" class="form-control" id="name" required
+                data-validation-required-message="Please enter your phone number." />
+            </div>
+          </div>
+
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Comments :</label>
               <textarea rows="10" cols="100" class="form-control" id="message" required
                 data-validation-required-message="Please enter your message" maxlength="999"
                 style="resize: none"></textarea>
             </div>
           </div>
+
           <div id="success"></div>
           <!-- For success/fail messages -->
           <button type="submit" class="contact-btn btn">Send Message</button>
@@ -167,10 +195,10 @@
         </div>
 
         <div class="working-hours">
-          <div class="heading">Availability</div>
+          <!-- <div class="heading">Availability</div>
           <div class="hours">We're also here to help you 24/7.</div>
-          <!--<div class="hours">  Saturday: 11:00 am - 3:00 pm</div>-->
-          <!--<div class="hours">  Sunday - closed</div>-->
+          <div class="hours">  Saturday: 11:00 am - 3:00 pm</div>
+          <div class="hours">  Sunday - closed</div> -->
         </div>
       </div>
       <!-- /column2 -->

@@ -234,6 +234,10 @@ div > figure {
 }
 */
 
+.red-astrisk {
+  color: red;
+}
+
 /* ----------------------------------------------------
 	 Navigation
 ------------------------------------------------------- */
@@ -379,7 +383,8 @@ nav.nav-bar {
   }
 
   span.nav-bar-links {
-    font-size: 15px;
+    font-size: 13px;
+    /* font-size: 15px; */
     font-family: "Open Sans", sans-serif;
     /* color: #333; */
     background-color: transparent;
